@@ -1,2 +1,2 @@
 # emailrepo.gcdcblr.in
-Email repo for GCDCBLR
+Email repo for GCDCBLR that can be used for storing all email addresses as references
