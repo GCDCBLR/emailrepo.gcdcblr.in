@@ -1,2 +1,2 @@
 # emailrepo.gcdcblr.in
-Email repo for GCDCBLR
+Basic email repository of GCDCBLR contacts
