@@ -66,16 +66,19 @@
                             <div class="row">
                                 <div id="email-input" class="col-md-2">*Email :</div>
                                 <input class="col-md-7 common-style-input set-email-style" type="text" id="email" required="required" autofocus/>
-                                <button class="col-md-2 common-style-input btn-size" id="submit">Submit</button>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-md-12" style="padding-right: 0;">
-                                    <input type="button" id="update" class="col-md-2 common-style-input btn-size" name="update" value="Submit">
-                                    <input type="button" id="generate" class="col-md-2 common-style-input btn-size" name="generate" value="Generate">
-                                    <input type="button" id="regenerate" class="col-md-3 common-style-input btn-size" name="regenerate" value="Regenerate">
-                                </div>
-                            </div>
+							</div>
+							<div class="row">
+                                <div id="fullname-input" class="col-md-2">*Full Name:</div>
+                                <input class="col-md-7 common-style-input set-email-style" type="text" id="fullname" required="required" maxlength="100" onkeypress="onKeyPressAddContact(event)"/>
+							</div>
+							<div class="row">
+								<div class="col-sm-4"></div>
+								<div class="col-sm-4" style="margin:auto;">
+									<button type="button" class="btn btn-primary btn-block btn-large" onclick="addNewContact({email : email.value, fullname : fullname.value})" id="add-submit">Add Contact</button>
+								</div>
+								<div class="col-sm-4"></div>
+							</div>
+                            <div class="clear"></div>
                         </form>
                     </div>
 				</div><!--/.col-->
